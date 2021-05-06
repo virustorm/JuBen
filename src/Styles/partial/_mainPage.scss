@@ -1,0 +1,36 @@
+.mainBody {
+	&-title {
+		font-size: 20px;
+		// color: purple;
+		margin-left: 40px;
+	}
+	&__box {
+		width: 90%;
+		margin: auto;
+		// margin: 0 auto;
+		&__cards {
+			outline: solid red;
+			height: 400px;
+			width: 100%;
+			padding: 30px 0;
+			display:flex;
+			flex-direction: column;
+			&-img{
+			outline: solid red;
+			width: 60%;
+			height: 200px;
+			text-align: center;
+			margin: auto;
+			margin-bottom: 20px;
+			}
+			&-text{
+			outline: solid red;
+			height: 150px;
+			width: 80%;
+			margin: auto;
+			// padding-top: 20px;
+			}
+		}
+		
+	}
+}

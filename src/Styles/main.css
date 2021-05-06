@@ -1,0 +1,60 @@
+@font-face {
+  font-family: "pangMen";
+  src: url("../Assests/fonts/PangMen.ttf");
+}
+
+.mainBody-title {
+  font-size: 20px;
+  margin-left: 40px;
+}
+
+.mainBody__box {
+  width: 90%;
+  margin: auto;
+}
+
+.mainBody__box__cards {
+  outline: solid red;
+  height: 400px;
+  width: 100%;
+  padding: 30px 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.mainBody__box__cards-img {
+  outline: solid red;
+  width: 60%;
+  height: 200px;
+  text-align: center;
+  margin: auto;
+  margin-bottom: 20px;
+}
+
+.mainBody__box__cards-text {
+  outline: solid red;
+  height: 150px;
+  width: 80%;
+  margin: auto;
+}
+
+.header-title {
+  width: 100%;
+  text-align: center;
+  font-family: pangMen;
+  font-size: 3em;
+}
+
+html,
+body {
+  margin: 0;
+  padding: 0 2%;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+/*# sourceMappingURL=main.css.map */
